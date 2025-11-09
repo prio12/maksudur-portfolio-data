@@ -1,0 +1,38 @@
+{
+  "frontend": [
+    "React.js",
+    "Redux Toolkit / Context API",
+    "Tailwind CSS",
+    "Bootstrap",
+    "DaisyUI",
+    "MambaUI",
+    "Lucide React Icons",
+    "JavaScript (ES6+)",
+    "HTML5 / CSS3",
+    "Responsive & Mobile-first Design"
+  ],
+  "backend": [
+    "Node.js",
+    "Express.js",
+    "RESTful API Development",
+    "JWT Authentication & Authorization",
+    "Socket.io (Real-time Communication)",
+    "API Integration & Error Handling"
+  ],
+  "database": [
+    "MongoDB",
+    "Mongoose ODM",
+    "Database Schema Design",
+    "Data Modeling & Validation"
+  ],
+  "tools": [
+    "Git & GitHub (Version Control)",
+    "VS Code",
+    "Postman / Thunder Client",
+    "npm / yarn",
+    "Render (Backend Hosting)",
+    "Vercel (Frontend Deployment)",
+    "Cloudinary (Image Storage)",
+    "Firebase Authentication"
+  ]
+}

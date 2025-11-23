@@ -1,49 +1,48 @@
 [
   {
-  "id": 1,
-  "name": "Chatterly",
-  "tagline": "Real-Time Social Media Platform",
-  "role": "Full-Stack Developer (Solo Project)",
-  "problem": "Most social platforms struggle to synchronize messaging, stories, feed updates, and notifications in real-time, causing delays and inconsistent user experience.",
-  "solution": "Built a full-featured real-time social media platform with instant messaging, Instagram-style stories, social feed, friend system, and a unified WebSocket event architecture powering notifications, online presence, and live updates.",
-  "impact": "Delivered a seamless real-time experience across messaging, feed activities, stories, and notifications. Achieved sub-second synchronization for posts, likes, comments, messages, and friend requests, showcasing mastery in scalable real-time systems.",
-  "image": "https://res.cloudinary.com/dxzvyancg/image/upload/v1762858566/finalforchatterlycropped_sp67cw.png",
-  "features": [
-    "Real-time messaging with typing indicators, read receipts, and instant delivery",
-    "Instagram-style stories with media uploads and time-based visibility",
-    "Social feed with live updates for posts, likes, and comments",
-    "Full friend system with requests, acceptance, discovery, and suggestions",
-    "Real-time notification system for posts, comments, likes, messages, and requests",
-    "Online presence indicators for all users across messaging and feed",
-    "Media sharing across posts, stories, and chat with compression via Cloudinary",
-    "Toast and push-style alerts for all real-time events"
-  ],
-  "keyAchievements": [
-    "Architected a multi-channel WebSocket system handling messaging, notifications, feed updates, and online status concurrently",
-    "Implemented modular Express.js MVC server architecture for scalable real-time features",
-    "Integrated Cloudinary media pipeline with 60% file size reduction while retaining quality",
-    "Designed highly interactive UX flows across chat, feed, and stories inspired by top social apps"
-  ],
-  "challenges": [
-    "Synchronizing diverse real-time events (messages, posts, likes, comments, friend requests) without performance loss",
-    "Managing concurrent WebSocket connections with proper error recovery and reconnection logic",
-    "Optimizing media uploads and previews across stories, posts, and chat",
-    "Ensuring accurate presence tracking and live feed updates under high concurrency"
-  ],
-  "tech": {
-    "frontend": ["React", "Redux Toolkit", "Tailwind CSS"],
-    "backend": ["Node.js", "Express.js", "Socket.io"],
-    "database": ["MongoDB", "Mongoose"],
-    "tools": ["JWT Authentication", "Cloudinary", "Firebase Hosting", "Socket.io Event System"]
+    "id": 1,
+    "name": "Chatterly",
+    "tagline": "Real-Time Social Media Platform",
+    "role": "Full-Stack Developer (Solo Project)",
+    "problem": "Most social platforms struggle to synchronize messaging, stories, feed updates, and notifications in real-time, causing delays and inconsistent user experience.",
+    "solution": "Built a full-featured real-time social media platform with instant messaging, Instagram-style stories, social feed, friend system, and a unified WebSocket event architecture powering notifications, online presence, and live updates.",
+    "impact": "Delivered a seamless real-time experience across messaging, feed activities, stories, and notifications. Achieved sub-second synchronization for posts, likes, comments, messages, and friend requests, showcasing mastery in scalable real-time systems.",
+    "image": "https://res.cloudinary.com/dxzvyancg/image/upload/v1762858566/finalforchatterlycropped_sp67cw.png",
+    "features": [
+      "Real-time messaging with typing indicators, read receipts, and instant delivery",
+      "Instagram-style stories with media uploads and time-based visibility",
+      "Social feed with live updates for posts, likes, and comments",
+      "Full friend system with requests, acceptance, discovery, and suggestions",
+      "Real-time notification system for posts, comments, likes, messages, and requests",
+      "Online presence indicators for all users across messaging and feed",
+      "Media sharing across posts, stories, and chat with compression via Cloudinary",
+      "Toast and push-style alerts for all real-time events"
+    ],
+    "keyAchievements": [
+      "Architected a multi-channel WebSocket system handling messaging, notifications, feed updates, and online status concurrently",
+      "Implemented modular Express.js MVC server architecture for scalable real-time features",
+      "Integrated Cloudinary media pipeline with 60% file size reduction while retaining quality",
+      "Designed highly interactive UX flows across chat, feed, and stories inspired by top social apps"
+    ],
+    "challenges": [
+      "Synchronizing diverse real-time events (messages, posts, likes, comments, friend requests) without performance loss",
+      "Managing concurrent WebSocket connections with proper error recovery and reconnection logic",
+      "Optimizing media uploads and previews across stories, posts, and chat",
+      "Ensuring accurate presence tracking and live feed updates under high concurrency"
+    ],
+    "tech": {
+      "frontend": ["React", "Redux Toolkit", "Tailwind CSS"],
+      "backend": ["Node.js", "Express.js", "Socket.io"],
+      "database": ["MongoDB", "Mongoose"],
+      "tools": ["JWT Authentication", "Cloudinary", "Firebase Hosting", "Socket.io Event System"]
+    },
+    "github": {
+      "frontend": "https://github.com/prio12/Chatterly_Client",
+      "backend": "https://github.com/prio12/chatterly_server"
+    },
+    "live": "https://chatterly-ddcd5.web.app/",
+    "highlight": true
   },
-  "github": {
-    "frontend": "https://github.com/prio12/Chatterly_Client",
-    "backend": "https://github.com/prio12/chatterly_server"
-  },
-  "live": "https://chatterly-ddcd5.web.app/",
-  "highlight": true
-}
-
   {
     "id": 2,
     "name": "BlogWave",

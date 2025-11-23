@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "name": "Chatterly",
     "tagline": "Real-Time Social Media Platform",
@@ -42,8 +41,7 @@
     },
     "live": "https://chatterly-ddcd5.web.app/",
     "highlight": true
-  },
-  {
+  },{
     "id": 2,
     "name": "BlogWave",
     "tagline": "Full-Stack Blogging Platform",

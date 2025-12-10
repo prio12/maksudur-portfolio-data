@@ -1,15 +1,17 @@
 {
-  "frontend": [
-    "React.js",
-    "Redux Toolkit / Context API",
-    "Tailwind CSS",
-    "Bootstrap",
-    "DaisyUI",
-    "MambaUI",
-    "JavaScript (ES6+)",
-    "HTML5 / CSS3",
-    "Responsive & Mobile-first Design"
-  ],
+"frontend": [
+  "React.js (18+)",
+  "TypeScript",
+  "Redux Toolkit / Context API",
+  "Tailwind CSS",
+  "Bootstrap",
+  "DaisyUI",
+  "MambaUI",
+  "JavaScript (ES6+)",
+  "HTML5 / CSS3",
+  "Responsive & Mobile-first Design",
+  "Modern UI/UX Patterns"
+]
   "backend": [
     "Node.js",
     "Express.js",

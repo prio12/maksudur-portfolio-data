@@ -1,60 +1,119 @@
 [
   {
-  "id": 1,
-  "name": "Chatterly",
-  "tagline": "Real-Time Social Media Platform",
-  "role": "Full-Stack Developer (Solo Project)",
-  "problem": "Most social platforms struggle to synchronize messaging, stories, feed updates, and notifications in real-time, causing delays and inconsistent user experience.",
-  "solution": "Built a full-featured real-time social media platform with instant messaging, Instagram-style stories, social feed, friend system, and a unified WebSocket event architecture powering notifications, online presence, and live updates. Developed the frontend fully with TypeScript for type safety and maintainable code.",
-  "impact": "Delivered a seamless real-time experience across messaging, feed activities, stories, and notifications. Achieved sub-second synchronization for posts, likes, comments, messages, and friend requests, showcasing mastery in scalable real-time systems and modern full-stack development practices.",
-  "image": "https://res.cloudinary.com/dxzvyancg/image/upload/v1762858566/finalforchatterlycropped_sp67cw.png",
-  "features": [
-    "Real-time messaging with typing indicators, read receipts, and instant delivery",
-    "Instagram-style stories with media uploads and time-based visibility",
-    "Social feed with live updates for posts, likes, and comments",
-    "Full friend system with requests, acceptance, discovery, and suggestions",
-    "Real-time notification system for posts, comments, likes, messages, and requests",
-    "Online presence indicators for all users across messaging and feed",
-    "Media sharing across posts, stories, and chat with compression via Cloudinary",
-    "Toast and push-style alerts for all real-time events",
-    "Frontend built with TypeScript for type-safe, maintainable code"
-  ],
-  "keyAchievements": [
-    "Architected a multi-channel WebSocket system handling messaging, notifications, feed updates, and online status concurrently",
-    "Implemented modular Express.js MVC server architecture for scalable real-time features",
-    "Integrated Cloudinary media pipeline with 60% file size reduction while retaining quality",
-    "Designed highly interactive UX flows across chat, feed, and stories inspired by top social apps",
-    "Modernized frontend using React + TypeScript with strict typing and scalable architecture"
-  ],
-  "challenges": [
-    "Synchronizing diverse real-time events (messages, posts, likes, comments, friend requests) without performance loss",
-    "Managing concurrent WebSocket connections with proper error recovery and reconnection logic",
-    "Optimizing media uploads and previews across stories, posts, and chat",
-    "Ensuring accurate presence tracking and live feed updates under high concurrency",
-    "Migrating frontend to TypeScript while maintaining feature parity and performance"
-  ],
-  "tech": {
-    "frontend": ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS", "DaisyUI"],
-    "backend": ["Node.js", "Express.js", "Socket.io"],
-    "database": ["MongoDB", "Mongoose"],
-    "tools": ["JWT Authentication", "Cloudinary", "Firebase Hosting", "Socket.io Event System"]
+    "id": 1,
+    "name": "ClarityAI",
+    "tagline": "AI-Powered Resume & Job Matcher",
+    "role": "Full-Stack Developer (Solo Project)",
+    "problem": "Job seekers waste hours tailoring resumes without knowing if they match job requirements, often missing critical ATS keywords that filter 75% of applications.",
+    "solution": "Built an AI-powered analysis platform using Google Gemini API that scores resume-job fit, identifies gaps, extracts ATS keywords, and generates tailored cover letters—all without storing sensitive resume data.",
+    "impact": "20+ active users processed 100+ analyses within weeks of launch. Secure backend API routing prevents key exposure while client-side PDF parsing ensures privacy. Row Level Security isolates user data at the database level.",
+    "images": [
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461203/clahome_lqb094.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461219/cladash_p5vhvq.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461253/clanewa_fui6s2.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461267/claresult_ltqkyh.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461296/claclett_cckamx.png"
+    ],
+    "features": [
+      "Resume vs Job scoring (0-100) with detailed strengths and gap analysis",
+      "ATS keyword extraction: matched, missing, and match rate percentage",
+      "AI-generated cover letters with customizable placeholders",
+      "Job tracking system with application stages, notes, and status history",
+      "Company name and contact extraction from job descriptions"
+    ],
+    "keyAchievements": [
+      "Architected secure AI API integration with backend routing to prevent key exposure",
+      "Implemented Row Level Security (RLS) policies for user data isolation in Supabase",
+      "Built client-side PDF parsing with pdfjs—no server storage of sensitive documents",
+      "Designed OAuth + email authentication flow using Supabase Auth",
+      "Achieved product-market fit with 100+ analyses in first month post-launch"
+    ],
+    "challenges": [
+      "Secured AI API calls by routing through Next.js API routes instead of client-side exposure",
+      "Optimized PDF parsing performance for large resumes without backend uploads",
+      "Implemented granular RLS policies to ensure users only access their own job tracking data",
+      "Balanced AI response quality with API cost optimization through prompt engineering"
+    ],
+    "tech": {
+      "frontend": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+      "backend": ["Next.js App Router", "Supabase", "PostgreSQL"],
+      "database": ["Supabase (PostgreSQL)", "Row Level Security"],
+      "tools": ["Google Gemini AI", "pdfjs", "OAuth (Google/GitHub)", "Vitest + RTL"]
+    },
+    "github": {
+      "frontend": "https://github.com/prio12/ClarityAI",
+      "backend": "https://github.com/prio12/ClarityAI"
+    },
+    "live": "https://getclarityai.vercel.app/",
+    "highlight": true
   },
-  "github": {
-    "frontend": "https://github.com/prio12/Chatterly_Client",
-    "backend": "https://github.com/prio12/chatterly_server"
-  },
-  "live": "https://chatterly-ddcd5.web.app/",
-  "highlight": true
-},
   {
     "id": 2,
+    "name": "Chatterly",
+    "tagline": "Real-Time Social Media Platform",
+    "role": "Full-Stack Developer (Solo Project)",
+    "problem": "Most social platforms struggle to synchronize messaging, stories, feed updates, and notifications in real-time, causing delays and inconsistent user experience.",
+    "solution": "Built a full-featured real-time social media platform with instant messaging, Instagram-style stories, social feed, friend system, and a unified WebSocket event architecture powering notifications, online presence, and live updates. Developed the frontend fully with TypeScript for type safety and maintainable code.",
+    "impact": "Delivered a seamless real-time experience across messaging, feed activities, stories, and notifications. Achieved sub-second synchronization for posts, likes, comments, messages, and friend requests, showcasing mastery in scalable real-time systems and modern full-stack development practices.",
+    "images": [
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461907/chathome_xwu8g0.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461922/chatprof_ng8uwl.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461942/chatchatui_uhjjcf.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774461960/chatnot_kwznkc.png"
+    ],
+    "features": [
+      "Real-time messaging with typing indicators, read receipts, and instant delivery",
+      "Instagram-style stories with media uploads and time-based visibility",
+      "Social feed with live updates for posts, likes, and comments",
+      "Full friend system with requests, acceptance, discovery, and suggestions",
+      "Real-time notification system for posts, comments, likes, messages, and requests",
+      "Online presence indicators for all users across messaging and feed",
+      "Media sharing across posts, stories, and chat with compression via Cloudinary",
+      "Toast and push-style alerts for all real-time events",
+      "Frontend built with TypeScript for type-safe, maintainable code"
+    ],
+    "keyAchievements": [
+      "Architected a multi-channel WebSocket system handling messaging, notifications, feed updates, and online status concurrently",
+      "Implemented modular Express.js MVC server architecture for scalable real-time features",
+      "Integrated Cloudinary media pipeline with 60% file size reduction while retaining quality",
+      "Designed highly interactive UX flows across chat, feed, and stories inspired by top social apps",
+      "Modernized frontend using React + TypeScript with strict typing and scalable architecture"
+    ],
+    "challenges": [
+      "Synchronizing diverse real-time events (messages, posts, likes, comments, friend requests) without performance loss",
+      "Managing concurrent WebSocket connections with proper error recovery and reconnection logic",
+      "Optimizing media uploads and previews across stories, posts, and chat",
+      "Ensuring accurate presence tracking and live feed updates under high concurrency",
+      "Migrating frontend to TypeScript while maintaining feature parity and performance"
+    ],
+    "tech": {
+      "frontend": ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS", "DaisyUI"],
+      "backend": ["Node.js", "Express.js", "Socket.io"],
+      "database": ["MongoDB", "Mongoose"],
+      "tools": ["JWT Authentication", "Cloudinary", "Firebase Hosting", "Socket.io Event System"]
+    },
+    "github": {
+      "frontend": "https://github.com/prio12/Chatterly_Client",
+      "backend": "https://github.com/prio12/chatterly_server"
+    },
+    "live": "https://chatterly-ddcd5.web.app/",
+    "highlight": false
+  },
+  {
+    "id": 3,
     "name": "BlogWave",
     "tagline": "Full-Stack Blogging Platform",
     "role": "Full-Stack Developer (Solo Project)",
     "problem": "Writers often lack a distraction-free platform with community-focused engagement.",
     "solution": "Developed a minimalist full-stack blogging platform enabling rich text publishing, personalized feeds, and smooth CRUD operations.",
     "impact": "Delivered an end-to-end content management system with Redux state management and responsive design, showcasing complete MERN stack proficiency.",
-    "image": "https://res.cloudinary.com/dxzvyancg/image/upload/v1762858458/blogwaveFInalcropped_d4ml3u.png",
+    "images": [
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774462420/bloguesthome_y1dtiv.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774462432/bloghome_phuaha.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774462455/blognot_gyu364.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774462465/blogsearch_brd2g4.png",
+      "https://res.cloudinary.com/dxzvyancg/image/upload/v1774462479/blogwrite_wij6el.png"
+    ],
     "features": [
       "Rich text editor with formatting tools (bold, italic, lists)",
       "Dynamic personalized content feed",

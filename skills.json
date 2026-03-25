@@ -1,9 +1,11 @@
 {
   "frontend": [
+    "Next.js (App Router)",
     "React.js (18+)",
     "TypeScript",
     "Redux Toolkit / Context API",
     "Tailwind CSS",
+    "shadcn/ui",
     "Bootstrap",
     "DaisyUI",
     "MambaUI",
@@ -13,27 +15,35 @@
     "Modern UI/UX Patterns"
   ],
   "backend": [
+    "Next.js API Routes",
     "Node.js",
     "Express.js",
     "RESTful API Development",
     "JWT Authentication & Authorization",
     "Socket.io (Real-time Communication)",
-    "API Integration & Error Handling"
+    "API Integration & Error Handling",
+    "OAuth (Google, GitHub)"
   ],
   "database": [
+    "Supabase (PostgreSQL)",
     "MongoDB",
     "Mongoose ODM",
     "Database Schema Design",
-    "Data Modeling & Validation"
+    "Data Modeling & Validation",
+    "Row Level Security (RLS)"
   ],
   "tools": [
     "Git & GitHub (Version Control)",
     "VS Code",
     "Postman / Thunder Client",
     "npm / yarn",
+    "Vercel (Deployment)",
     "Render (Backend Hosting)",
-    "Vercel (Frontend Deployment)",
     "Cloudinary (Image Storage)",
-    "Firebase Authentication"
+    "Firebase Authentication",
+    "Supabase Auth",
+    "Google Gemini AI API",
+    "pdfjs (Client-side PDF Parsing)",
+    "Vitest + React Testing Library"
   ]
 }
